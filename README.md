@@ -25,4 +25,4 @@ After all setting, enter `npm start` or `node .` in the terminal. When login com
 # Contributes
 As I'm a Korean who is very young(17-yo) and not fluent in English, many grammatical or lexical error may here. I hope you guys fix it :)
 Every contributes are welcome. you can do it with the Pull Request!
-Thanks for reading and use my project :D
+Thanks for reading and using my project :D
