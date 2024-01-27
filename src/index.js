@@ -1,7 +1,7 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import config from "./config.json" assert {type: "json"};
 import data from "./data.json" assert {type: "json"};
-import { DataManager } from "./utilites/dataManagement";
+import { DataManager } from "./utils/dataManagement";
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates] });
 const dataManager = new DataManager(data);
