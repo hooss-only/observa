@@ -1,6 +1,6 @@
 import fs from "fs";
 
-class DataManager {
+export class DataManager {
 	constructor(data) {
 		this.data = data;
 		this.saveFile = '../data.json';
@@ -15,4 +15,3 @@ class DataManager {
 	}
 }
 
-module.exports = new DataManager();
