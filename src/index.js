@@ -11,7 +11,7 @@ const dataManager = new DataManager(data);
 console.log('\nA Discord Server Analyzing Tool, Project Observa by hooss-only\n');
 
 client.on("ready", () => {
-	observeVoiceChannel(client);
+	observeVoiceChannel(client, dataManager);
 
 	console.log(`logged in as ${client.user.tag}`);
 });
